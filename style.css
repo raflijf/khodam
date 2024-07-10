@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    background: rgb(220, 219, 219);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+
+}
+section div {
+    display: grid;
+    gap: 10px;
+}
+.title, .dis, .form, .result{
+    display: flex;
+    justify-content: center;
+}
+.form {
+    gap: 10px;
+}
+.title h1 {
+    font-size: 45px;
+    font-family: serif;
+}
+.dis h3 {
+    font-size: 15px;
+}
+.input input{
+    height: 40px; 
+    width: 250px;
+    font-size: 20px;
+    border: 1px black solid;
+    
+}
+.btn-cek button{
+    height: 40px;
+    color: white;
+    width: 150px;
+    background-color: blue;
+    border: none;
+    font-size: large;
+    font-weight: 800;
+}
+.btn-delete button {
+    height: 40px;
+    color: white;
+    width: 100px;
+    background-color: red;
+    border: none;
+    font-size: large;
+    font-weight: 800;
+}
+.input {
+    display: grid;
+    gap: 0px;
+}
+.input li {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
